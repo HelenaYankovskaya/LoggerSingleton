@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-12-09T21:40:26</date>
+  <millis>1544384426992</millis>
+  <sequence>0</sequence>
+  <logger>LoggSingl.SingletonLogger</logger>
+  <level>INFO</level>
+  <class>LoggSingl.SingletonLogger</class>
+  <method>someMethod</method>
+  <thread>1</thread>
+  <message>Some message</message>
+</record>
+<record>
+  <date>2018-12-09T21:40:27</date>
+  <millis>1544384427471</millis>
+  <sequence>1</sequence>
+  <logger>LoggSingl.SingletonLogger</logger>
+  <level>WARNING</level>
+  <class>LoggSingl.SingletonLogger</class>
+  <method>someMethod</method>
+  <thread>1</thread>
+  <message>Запись лога с уровнем WARNING (Предупреждение)</message>
+</record>
+<record>
+  <date>2018-12-09T21:40:27</date>
+  <millis>1544384427478</millis>
+  <sequence>2</sequence>
+  <logger>LoggSingl.SingletonLogger</logger>
+  <level>SEVERE</level>
+  <class>LoggSingl.SingletonLogger</class>
+  <method>someMethod</method>
+  <thread>1</thread>
+  <message>Запись лога с уровнем SEVERE (серъёзная ошибка)</message>
+</record>
+</log>
